@@ -13,6 +13,7 @@ window#waybar {
     transition-duration: .5s;
     border-radius: 16px;
     padding: 2px;
+    margin-top: 3px;
 }
 
 window#waybar.hidden {
@@ -98,6 +99,7 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
+/* custom-wallpaper,*/
 #mpd {
     padding: 0 10px;
     color: #ffffff;
@@ -345,4 +347,11 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+#custom-wallpaper {  
+    background-color: rgba(15,15,15,0.85);
+    border:1px solid #ffaa00;
+    border-radius: 16px;
+    padding: 0 10px;
+    padding-right: 13px;
 }
