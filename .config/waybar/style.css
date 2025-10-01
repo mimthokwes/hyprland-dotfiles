@@ -58,15 +58,17 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 4px;
     border-radius: 100%;
-    border: 1px solid #ffaa00; 
-    background-color: rgba(15, 15, 15, 0.85); /* Tidak ada warna untuk workspace biasa */
+    border: 2px solid #ffffff; 
+    background-color: rgba( 15, 15, 15, 0.3); /* Tidak ada warna untuk workspace biasa */
     color: #ffffff;
 }
 
 #workspaces button:hover {
-    background-color: #ffcc00;
+    background-color: #000000;
+    border: transparent;
+    color: #ffffff;
 }
 
 #workspaces button:active {
@@ -121,17 +123,17 @@ button:hover {
 }
 
 #clock {
-    background-color: rgba(15, 15, 15, 0.85);
-    border: 1px solid #ffaa00; 
+    background-color: rgba(15, 15, 15,0.3);
+    border: 2px solid #ffffff; 
     border-radius: 16px;
 
 }
 
 #battery {
-    background-color: rgba(15, 15, 15, 0.85);
+    background-color: rgba(15, 15, 15, 0.3);
     color: #ffffff;
     border-radius: 16px;
-    border: 1px solid #ffaa00; 
+    border: 2px solid #ffffff; 
 
 }
 
@@ -160,23 +162,23 @@ button:hover {
 }
 
 #power-profiles-daemon {
-    padding-right: 15px;
-    border: 1px solid #ffaa00; 
+    padding-right: 12px;
+    border: 2px solid #ffffff; 
     border-radius: 16px;
 }
 
 #power-profiles-daemon.performance {
-    background-color: rgba(15, 15, 15, 0.85);
+    background-color: rgba(15, 15, 15, 0.3);
     color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: rgba(15, 15, 15, 0.85);
+    background-color: rgba(15, 15, 15, 0.3);
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: rgba(15, 15, 15, 0.85);
+    background-color: rgba(15, 15, 15, 0.3);
     color: #ffffff;
 }
 
@@ -190,9 +192,9 @@ label:focus {
 }
 
 #memory {
-    background-color: rgba(15, 15, 15, 0.85);
+    background-color: rgba(15, 15, 15, 0.3);
     border-radius: 16px;
-    border: 1px solid #ffaa00; 
+    border: 2px solid #ffffff; 
 
 }
 
@@ -205,9 +207,9 @@ label:focus {
 }
 
 #network {
-    background-color: rgba(15, 15, 15, 0.85);
+    background-color: rgba(15, 15, 15, 0.3);
     border-radius: 16px;
-    border: 1px solid #ffaa00; 
+    border: 2px solid #ffffff; 
 
 }
 
@@ -349,8 +351,8 @@ label:focus {
     background-color: #0069d4;
 }
 #custom-wallpaper {  
-    background-color: rgba(15,15,15,0.85);
-    border:1px solid #ffaa00;
+    background-color: rgba(15,15,15,0.3);
+    border:2px solid #ffffff;
     border-radius: 16px;
     padding: 0 10px;
     padding-right: 13px;
