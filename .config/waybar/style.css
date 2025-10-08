@@ -1,6 +1,6 @@
 *,window {
-    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
-    font-size: 13px;
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrainsmono', 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands',monospace;
+    font-size: 15px;
     padding-left: 3px;
     padding-right: 3px;
     margin: 0;
@@ -74,6 +74,9 @@ button:hover {
 #workspaces button:active {
     background-color: #2980b9;  /* Biru untuk workspace aktif */
 }
+#workspaces button:focus {
+    background-color: #2980b9;  /* Biru untuk workspace aktif */
+}
 
 #workspaces button.urgent {
     background-color: #eb4d4b;  /* Warna merah untuk urgent */
@@ -134,7 +137,6 @@ button:hover {
     color: #ffffff;
     border-radius: 16px;
     border: 2px solid #ffffff; 
-
 }
 
 #battery.charging, #battery.plugged {
@@ -210,7 +212,6 @@ label:focus {
     background-color: rgba(15, 15, 15, 0.3);
     border-radius: 16px;
     border: 2px solid #ffffff; 
-
 }
 
 #network.disconnected {

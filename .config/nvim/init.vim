@@ -9,7 +9,7 @@ Plug 'honza/vim-snippets'
 Plug 'Exafunction/windsurf.vim', {'branch': 'main'}
 Plug 'L3MON4D3/LuaSnip'
 Plug 'rafamadriz/friendly-snippets'
-
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
